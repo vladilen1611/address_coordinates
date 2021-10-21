@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Login</title>
+
+</head>
+
+<body>
+
+
+{% if message %}
+
+    <p>Coordinates: {{ message }}</p>
+
+{% endif %}
+
+
+
+<form action="" method="post">
+
+    <p>
+
+        <label for="city">City</label>
+
+        <input type="text" name="city">
+
+    </p>
+     <p>
+
+        <label for="street">Street</label>
+
+        <input type="text" name="street">
+
+    </p>
+     <p>
+
+        <label for="house">House</label>
+
+         <input type="text" name="house">
+
+    </p>
+    <p>
+
+        <input type="submit">
+
+    </p>
+
+</form>
+
+
+</body>
+
+</html>

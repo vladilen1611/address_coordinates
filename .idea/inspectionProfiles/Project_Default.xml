@@ -1,0 +1,26 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="2">
+            <item index="0" class="java.lang.String" itemvalue="db-utils" />
+            <item index="1" class="java.lang.String" itemvalue="device-control-sdk" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="src.control_device__db.import_mac.__main__.Modification" />
+          <option value="src.control_device__db.import_mac.__main__.manufacturer_serial_number" />
+          <option value="src.control_device__db.import_mac.__main__.user_id" />
+          <option value="src.application_backend__db.import_fake_data.__main__.nodex_tree" />
+          <option value="src.application_backend__db.import_fake_data.__main__.building" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
